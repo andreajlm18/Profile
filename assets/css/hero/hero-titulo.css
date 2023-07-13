@@ -1,0 +1,6 @@
+.hero__titulo {
+    font-family: var(--martian);
+    color: var(--violet-dark);
+    font-size: 1rem;
+    font-weight: 100;
+  }

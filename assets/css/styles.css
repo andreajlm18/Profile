@@ -1,0 +1,185 @@
+:root {
+    --background-navy: #fbfbfb;
+    --violet: #c664ff;
+    --violet-light: #D8BFD8;
+    --violet-dark: #4B0082;
+    --lilac-light: #CAB6CA;
+    --lilac-lighter: #E2D4E2;
+    --lilac-intense: #BDAABD;
+    --lilac-very-light: #E9DAE9;
+    --lilac-dark: #A88DA8;
+    --lilac-pale-very-light: #fbf0fb;
+    --lilac-darker-saturated: #967196;
+    --lilac-creamy-soft: #E6D0E6;
+    --lilac-touch-of-gray: #B891B8;
+    --lila-light: #fff9ff;
+    --off-white: #F5F5F5;
+    --lightest: #ccd6f6;
+    --lightest-white: #ecf1ff;
+    --light-gray: #D3D3D3;
+    --soft-black: #333333;
+    --intense-black: #111111;
+    --smoky-black: #555555;
+    --charcoal-black: #444444;
+    --graphite-black: #2B2B2B;
+    --martian: 'Martian Mono', monospace;
+    --Quicksand: 'Quicksand', sans-serif;
+    --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+}
+
+body {
+    font-family: var(--Quicksand);
+    background-color: var(--background-navy);
+    margin: 0px;
+    padding: 0px;
+    background: url(../img/wepik-export-20230712181325AKoS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.boton {
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    border: 1px solid var(--boton-rojo);
+    border-radius: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.pagaTodo{
+  background-image: url('../img/experience/demo_pagaTodo.PNG');
+}
+.pwa__turismo{
+  background-image: url('../img/experience/demo__turismo.PNG');
+}
+.link__Demos{
+  background-image: url('../img/experience/LinkDemos.PNG');
+}
+
+.experiencia__title{
+  font-family: var(--martian);
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--lilac-darker-saturated);
+}
+.experiencia__title{
+  margin-top: 15vh;
+  font-family: var(--martian);
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--lilac-darker-saturated);
+}
+.experience__image {
+    padding: 0 20vh 0 20vh;
+    position: relative;
+    height: auto;
+    width:30rem;
+    height: 23rem;
+    background-size: cover;
+    transition: background-color 0.3s ease; 
+}
+.experience__image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(234, 118, 255, 0.6);
+}
+.experience__image:hover::before{
+    background-color: rgba(237, 200, 245, 0); /* Cambiar gradualmente a fondo transparente */
+    cursor: pointer;
+}
+
+  
+  .experience__tags__title {
+    display: inline-block;
+    background: var(--lilac-pale-very-light);
+    color: #d58bff;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 23px;
+    position: relative;
+    font-family: var(--martian);
+    font-size: 0.8rem;
+    font-weight: 100;
+  }
+  .experience__tags__title::before {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 1px rgba(255, 0, 208, 0.473);
+    content: '';
+    height: 6px;
+    left: 10px;
+    position: absolute;
+    width: 6px;
+    top: 10px;
+  }
+  
+  .experience__tags__title::after {
+    background: #fff;
+    border-bottom: 13px solid transparent;
+    border-left: 10px solid var(--lilac-pale-very-light);
+    border-top: 13px solid transparent;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .experience__tags__title:hover {
+    background-color: var(--lilac-darker-saturated);;
+    color:white;
+  }
+  
+  .experience__tags__title:hover::after {
+     border-left-color: var(--lilac-darker-saturated); 
+  }
+
+  .experience__card-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  .experience__card-info{
+    color: #5f535f;
+  }
+  .experience__tags {
+    margin-top: 20px;
+  }
+  
+  .experience__tags__title {
+    margin-right: 10px;
+  }
+  .experience__link__git {
+    font-size: 1.34rem;
+    padding:1rem;
+    color: #d58bff;
+  }
+  .experience__link__view {
+    font-size: 1.04rem;
+    color: #d58bff;
+  }
+  
+
+  .experience__title-active{
+    font-family: var(--martian);
+    font-size: 0.8rem;
+    color: var(--violet);
+    font-weight: 100;
+    margin: 0px;
+  }
+  .experience__title__name{
+    color: var(--lilac-darker-saturated);
+    font-weight: bolder;
+}

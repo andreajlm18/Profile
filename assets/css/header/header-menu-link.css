@@ -1,0 +1,20 @@
+.header__menu__link {
+    display: block;
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+    transition: 0.2s all ease-in-out;
+    color: var(--lilac-dark);
+    font-family: var(--martian);
+    text-decoration: none;
+  }
+  .header__menu__link::before {
+    content: "0" counter(item) ".";
+    margin-right: 5px;
+    color: var(--lilac-dark);
+}
+@media only screen and (max-width: 950px) {
+  
+    .header__menu__link {
+      margin-left: 12px;
+    }
+}

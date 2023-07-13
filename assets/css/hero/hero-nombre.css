@@ -1,0 +1,23 @@
+.hero__nombre {
+    color: var(--lilac-darker-saturated);
+    font-family: var(--font-sans);
+    margin: 0px;
+}
+
+@media screen and (min-width:0px) and (max-width:767px) {
+    .hero__nombre {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .hero__nombre {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero__nombre {
+        font-size: 4rem;
+    }
+}

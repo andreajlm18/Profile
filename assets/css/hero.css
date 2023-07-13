@@ -1,0 +1,28 @@
+.hero {
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 0px) {
+  .hero {
+    display: block;
+    padding: 0 10vh 0 10vh;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    display: flex;
+    padding: 0 2vh 0 8vh;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    padding: 0 10vh 0 12vh;
+    height: 80vh;
+    
+  }
+}

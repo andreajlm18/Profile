@@ -1,0 +1,32 @@
+.hero__polaroid__image {
+    border: 2px solid var(--lilac-darker-saturated);
+    background-color: #FFF ;
+    position: relative;
+    transition: .15s ease;
+    cursor: pointer;
+    padding: 5% 5% 15% 5%;
+  }
+  
+  .hero__polaroid__image:before, .hero__polaroid__image:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 2px solid var(--lilac-darker-saturated);
+    background-color: #FFF;
+    transform-origin: center center;
+    z-index: -1;
+    transition: .15s ease;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+  }
+  
+  .hero__polaroid__image:before {
+    transform: translatey(-2%) rotate(-6deg);
+  }
+  
+  .hero__polaroid__image:after {
+    transform: translatey(2%) rotate(6deg);
+  }

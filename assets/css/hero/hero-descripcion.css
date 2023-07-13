@@ -1,0 +1,28 @@
+.hero__descripcion {
+    color: var(--violet-dark);
+    margin: 0;
+    text-align: justify;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+
+
+@media screen and (min-width:0) {
+    .hero__descripcion {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .hero__descripcion {
+        width: 100%;    
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .hero__descripcion {
+        width: 60%;
+        font-size: 1.1rem;
+    }
+}

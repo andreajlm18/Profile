@@ -1,0 +1,37 @@
+.hero__polaroid {
+    padding-right: 5vh;
+    padding-left: 5vh;
+    transition: .25s ease;
+}
+
+.hero__polaroid:hover {
+    transform: rotate(5deg);
+
+}
+
+.hero__polaroid:hover .card:before {
+    transform: translatey(-2%) rotate(-4deg);
+}
+
+.hero__polaroid:hover .card:after {
+    transform: translatey(2%) rotate(4deg);
+}
+
+
+@media screen and (min-width:0px) {
+    .hero__polaroid{
+        width: 0%;
+        display: none;
+    }
+}
+@media screen and (min-width:768px) {
+    .hero__polaroid{
+        width: 80vh;
+        display: block;
+    }
+}
+@media screen and (min-width:1024px) {
+    .hero__polaroid{
+        width: 90vh;
+    }
+}

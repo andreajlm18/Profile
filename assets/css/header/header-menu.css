@@ -1,0 +1,32 @@
+.header__menu {
+    padding-left: 2px;
+    margin: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__menu:hover a {
+    opacity: 0.4;
+  }
+  
+  .header__menu a:hover {
+    opacity: 1;
+    color: var(--violet);
+  }
+  
+  @media only screen and (max-width: 950px) {
+    .header__menu {
+      flex-direction: column;
+      background-color: #ffffff;
+      align-items: start;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+      transform: scale(1, 0);
+      transform-origin: top;
+      transition: transform 0.3s ease-in-out;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+}

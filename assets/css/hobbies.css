@@ -1,0 +1,6 @@
+.hobbie__title {
+    padding: 5vh 5vh 0 12vh;
+    font-size: 1.5rem;
+    font-family: var(--martian);
+    color: var(--lilac-darker-saturated);
+}

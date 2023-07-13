@@ -1,0 +1,7 @@
+.hobbie__card__title {
+    color: var(--lilac-darker-saturated);
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: var(--martian);
+}

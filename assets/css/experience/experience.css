@@ -1,0 +1,19 @@
+.experience {
+    display: flex;
+    padding: 0 15vh 0 20vh;
+    text-align: end;
+    margin-top: 4rem;
+}
+
+.experience:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: start;
+}
+
+.experience:nth-child(odd) .experience__card-container {
+    margin-left: -6rem;
+}
+
+.experience:nth-child(even) .experience__card-container {
+    margin-right: -6rem;
+}

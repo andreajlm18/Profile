@@ -1,0 +1,28 @@
+.social__media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+
+  @media screen and (min-width:0) {
+    .social__media{
+    padding-left:3vh;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .social__media{
+      padding-left:0;
+    }
+  }
+
+@media screen and (min-width:1024px) {
+    .social__media{
+      padding-left:2vh;
+    }
+    
+}

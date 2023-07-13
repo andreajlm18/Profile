@@ -1,0 +1,6 @@
+.social__correo {
+    position: fixed;
+    top: 50%;
+    right: 0.3rem;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,39 @@
+.hero__button {
+  font-weight: 100;
+  border-color: var(--violet);
+  background: var(--violet);
+  color: white;
+  font-family: var(--martian);
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 1rem;
+}
+
+.hero__button:hover {
+  font-weight: 300;
+  background: none;
+  border-color: var(--violet);
+  color: var(--violet);
+}
+
+@media screen and (min-width:0) {
+  .hero__button {
+    width: 100%;
+    margin-top: 1.5rem;
+    order: 2;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .hero__button {
+    width: 60%;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .hero__button {
+    width: 30%;
+    margin-top: 1.5rem;
+  }
+}

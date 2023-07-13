@@ -1,0 +1,10 @@
+
+.header__menu__item{
+    list-style: none;
+    counter-increment: item;
+  }
+  @media only screen and (max-width: 950px) {
+    .header__menu__item {
+      margin-bottom: 10px;
+    }
+}

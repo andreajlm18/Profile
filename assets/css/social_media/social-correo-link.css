@@ -1,0 +1,31 @@
+
+.social__correo__link {
+    position: fixed;
+    transform: rotate(-270deg);
+    font-family: var(--martian);
+    font-size: 0.8rem;
+    color: var(--violet-light);
+    text-decoration: none;
+}
+
+.social__correo__link:hover {
+    color: var(--lilac-darker-saturated);
+    cursor: pointer;
+}   
+@media screen and (min-width:0) {
+    .social__correo__link {
+        right: -5rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .social__correo__link {
+        right:-5rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .social__correo__link {
+        right: -2rem;
+    }
+}
